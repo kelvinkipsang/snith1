@@ -1,0 +1,133 @@
+/*other navigation*/
+
+.other_nav {
+    background-color: black;
+}
+.other_nav a {
+    color: white;
+    -webkit-transition: color 1s, background-color 1s;
+    -moz-transition: color 1s, background-color 1s;
+    -o-transition: color 1s, background-color 1s;
+    transition: color 1s, background-color 1s;
+}
+.now a {
+    color: white;
+}
+.other_nav a {
+    font-size: 270%;
+}
+.ion-navicon {
+    display: none;
+    font-size: 320%;
+    -moz-transition: color 2s;
+    -o-transition: color 2s;
+    -webkit-transition: color 2s;
+    transition: color 2s;
+}
+.ion-navicon:hover {
+    z-index: -1;
+    color: transparent;
+    -moz-transition: color 2s;
+    -o-transition: color 2s;
+    -webkit-transition: color 2s;
+    transition: color 2s;
+}
+.landing a {
+    font-family: 'Yantramanav', sans-serif;
+}
+
+/*landing page*/
+
+iframe {
+    display: none;
+}
+.landing {
+    margin-top: 40%;
+}
+.landing a {
+    font-size: 400%;
+    border: none;
+    margin: 2% 0;
+    font-weight: 100;
+}
+.landing_header {
+    display: none;
+}
+#landing_nav:before {
+    content: "Kelvin Kipsang";
+    font-size: 600%;
+    text-align: center;
+    padding-left: 10%;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+/*about page*/
+
+.me_txt {
+    padding-bottom: 20%;
+}
+.abt_icons i {
+    font-size: 900%;
+    margin: 0 3%;
+}
+
+/*portfolio*/
+
+#more_abt {
+    display: none;
+}
+.texty {
+    font-size: 250%;
+}
+@media only screen and (orientation:landscape) {
+    #harv,
+    #elite,
+    #raid,
+    #alan,
+    #dquest,
+    #calc {
+        height: 100%
+    }
+}
+
+/*contact page*/
+
+.c_text {
+    margin-top: 5%;
+}
+.c_text p {
+    font-size: 150%;
+}
+.c_form {
+    margin-top: 10%;
+}
+.button {
+    margin-top: 5%;
+}
+textarea {
+    display: none;
+}
+.social {
+    margin-top: 10%;
+}
+.social i {
+    font-size: 400%;
+}
+form {
+    text-align: center;
+}
+input {
+    height: 380px;
+    text-align: center;
+}
+.tety {
+    font-size: 150%;
+    height: 7em;
+}
+#copy {
+    left: 38%;
+    position: absolute;
+    top: 90%;
+}

@@ -1,0 +1,430 @@
+/*Global styling*/
+
+nav a {
+    text-transform: uppercase;
+    text-align: center;
+}
+body {
+    animation-name: fady;
+    animation-duration: 6s;
+}
+h3,
+p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.full_container {
+    max-height: inherit;
+}
+.f_menu {
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.ion-navicon {
+    font-size: 200%;
+    color: black;
+    -webkit-transition: color 3s;
+    -moz-transition: color 3s;
+    -o-transition: color 3s;
+    transition: color 3s;
+}
+.ion-navicon:hover {
+    color: white;
+    -webkit-transition: color 3s;
+    -moz-transition: color 3s;
+    -o-transition: color 3s;
+    transition: color 3s;
+}
+
+/*animation*/
+
+@keyframes fady {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes navy {
+    form {
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        color: black;
+    }
+    to {
+        border-right: 2px solid floralwhite;
+        border-left: 2px solid floralwhite;
+        color: floralwhite;
+        background-color: #383737;
+    }
+}
+@keyframes unnavy {
+    from {
+        border-right: 2px solid floralwhite;
+        border-left: 2px solid floralwhite;
+        color: floralwhite;
+        background-color: #383737;
+    }
+    to {
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        color: black;
+    }
+}
+
+/*landing page*/
+
+#landing_nav {
+    padding-top: 23%;
+}
+.landing {
+    text-align: center;
+    text-transform: uppercase;
+}
+.landing_header {
+    height: 100%;
+    padding: 0;
+    text-align: center;
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.landing_header h2 {
+    padding-top: 34%;
+    font-family: 'Yantramanav', sans-serif;
+    color: white;
+    font-size: 500%;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding-bottom: -5%;
+}
+.landing_header p {
+    color: white;
+    text-transform: uppercase;
+}
+#landing_overlay {
+    height: inherit;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.38);
+}
+
+/*navigation*/
+
+.landing a {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    color: black;
+    animation-name: unnavy;
+    animation-duration: 2s;
+}
+.landing a:hover {
+    border-right: 2px solid floralwhite;
+    border-left: 2px solid floralwhite;
+    color: floralwhite;
+    background-color: #383737;
+    animation-name: navy;
+    animation-duration: 2s;
+}
+.other_nav {
+    background-color: white;
+    -webkit-transition: background-color 3s;
+    -moz-transition: background-color 3s;
+    -o-transition: background-color 3s;
+    transition: background-color 3s;
+}
+.other_nav:hover {
+    background-color: black;
+    color: white;
+    -webkit-transition: background-color 3s;
+    -moz-transition: background-color 3s;
+    -o-transition: background-color 3s;
+    transition: background-color 3s;
+}
+.other_nav a {
+    color: white;
+    -webkit-transition: color 1s, background-color 1s;
+    -moz-transition: color 1s, background-color 1s;
+    -o-transition: color 1s, background-color 1s;
+    transition: color 1s, background-color 1s;
+}
+.other_nav a:hover {
+    color: black;
+    background-color: white;
+    -webkit-transition: color 1s, background-color 1s;
+    -moz-transition: color 1s, background-color 1s;
+    -o-transition: color 1s, background-color 1s;
+    transition: color 1s, background-color 1s;
+}
+.now a {
+    color: black;
+}
+.nav_icon {
+    position: absolute;
+    right: 3%;
+    top: -0.5%;
+}
+
+/*about page*/
+
+.about_me {
+    text-align: center;
+    padding-top: 15%;
+}
+.abt_icons i {
+    font-size: 900%;
+    margin: 0 5%;
+}
+.me_txt p {
+    padding-top: 10%;
+}
+#self {
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+}
+#folio a {
+    padding: 0.5%;
+    color: black;
+    font-weight: 900;
+    border-bottom: 2px solid black;
+}
+#folio a:hover {
+    color: white;
+    border-bottom: 2px solid white;
+    background-color: black;
+}
+.emp {
+    font-weight: 100;
+    text-transform: uppercase;
+    color: white;
+    padding: 0.5%;
+    background-color: black;
+}
+
+/*portfolio section*/
+
+.works {
+    height: 95%;
+}
+.show {
+    padding: 0;
+    margin: 0;
+}
+.texty {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20%;
+}
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+    padding: 0;
+    -webkit-transition: background-color 2s;
+    -moz-transition: background-color 2s;
+    -o-transition: background-color 2s;
+    transition: background-color 2s;
+}
+.overlay:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    -webkit-transition: background-color 2s;
+    -moz-transition: background-color 2s;
+    -o-transition: background-color 2s;
+    transition: background-color 2s;
+}
+#harv {
+    background-image: url(../img/port1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 30%;
+    -webkit-transition: background-size 2s;
+    -moz-transition: background-size 2s;
+    -o-transition: background-size 2s;
+    transition: background-size 2s;
+}
+#harv:hover {
+    background-size: 120%;
+    -webkit-transition: background-size 2s;
+    -moz-transition: background-size 2s;
+    -o-transition: background-size 2s;
+    transition: background-size 2s;
+}
+#elite {
+    background-image: url(../img/port2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 30%;
+    -webkit-transition: background-size 2s;
+    -moz-transition: background-size 2s;
+    -o-transition: background-size 2s;
+    transition: background-size 2s;
+}
+#elite:hover {
+    background-size: 120%;
+    -webkit-transition: background-size 2s;
+    -moz-transition: background-size 2s;
+    -o-transition: background-size 2s;
+    transition: background-size 2s;
+}
+#raid {
+    background-image: url(../img/port3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 30%;
+    -webkit-transition: background-size 2s;
+    -moz-transition: background-size 2s;
+    -o-transition: background-size 2s;
+    transition: background-size 2s;
+}
+#raid:hover {
+    background-size: 120%;
+    -webkit-transition: background-size 2s;
+    -moz-transition: background-size 2s;
+    -o-transition: background-size 2s;
+    transition: background-size 2s;
+}
+#alan {
+    background-image: url(../img/port4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 30%;
+    -webkit-transition: background-size 2s;
+    -moz-transition: background-size 2s;
+    -o-transition: background-size 2s;
+    transition: background-size 2s;
+}
+#alan:hover {
+    background-size: 120%;
+    -webkit-transition: background-size 2s;
+    -moz-transition: background-size 2s;
+    -o-transition: background-size 2s;
+    transition: background-size 2s;
+}
+#dquest {
+    background-image: url(../img/port5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 30%;
+    -webkit-transition: background-size 2s;
+    -moz-transition: background-size 2s;
+    -o-transition: background-size 2s;
+    transition: background-size 2s;
+}
+#dquest:hover {
+    background-size: 120%;
+    -webkit-transition: background-size 2s;
+    -moz-transition: background-size 2s;
+    -o-transition: background-size 2s;
+    transition: background-size 2s;
+}
+#calc {
+    background-image: url(../img/port6.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 30%;
+    -webkit-transition: background-size 2s;
+    -moz-transition: background-size 2s;
+    -o-transition: background-size 2s;
+    transition: background-size 2s;
+}
+#calc:hover {
+    background-size: 120%;
+    -webkit-transition: background-size 2s;
+    -moz-transition: background-size 2s;
+    -o-transition: background-size 2s;
+    transition: background-size 2s;
+}
+#more_abt {
+    text-align: center;
+}
+#more_abt h3 {
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+
+/*contact page*/
+
+.digits {
+    margin-top: 15%;
+}
+#email {
+    text-transform: none;
+}
+#copy {
+    padding-top: 10%;
+    text-transform: uppercase;
+}
+.button,
+.button:focus {
+    background-color: black;
+    margin-top: -60%;
+}
+.button:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.social {
+    padding-top: 0;
+    text-align: center;
+}
+.social i {
+    color: black;
+    font-size: 200%;
+    padding: 0 2%;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+}
+.social i:hover {
+    color: lightslategrey;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+}
+.c_text {
+    text-align: center;
+}
+#namy {
+    font-family: 'Pacifico', cursive;
+    font-size: 400%;
+}
+#rest {
+    text-transform: uppercase;
+}
+input,
+textarea {
+    background: transparent;
+    border: transparent !important;
+    box-shadow: 0px 0px 0px #000000;
+}
+input:focus {
+    border-bottom: 4px solid !important;
+}
+textarea {
+    box-shadow: 0px 0px 0px #000000;
+    -webkit-transition: border 1s, box-shadow 1s;
+    -moz-transition: border 1s, box-shadow 1s;
+    -o-transition: border 1s, box-shadow 1s;
+    transition: border 1s, box-shadow 1s;
+}
+textarea:focus {
+    -webkit-transition: border 1s, box-shadow 1s;
+    -moz-transition: border 1s, box-shadow 1s;
+    -o-transition: border 1s, box-shadow 1s;
+    transition: border 1s, box-shadow 1s;
+    transition-delay: 2s;
+    border-bottom: 4px solid !important;
+}
+
+/*footer*/
+
+footer {
+    text-align: center;
+    text-transform: uppercase;
+}
